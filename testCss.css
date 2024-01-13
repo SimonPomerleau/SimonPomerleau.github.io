@@ -27,6 +27,8 @@ button:active{
     left: 0;
     right: 0;
     animation: scaleInB 5s infinite cubic-bezier(.36, .11, .89, .32);
+    z-index: 1;
+    border: none;
 }
 .glow {
     
