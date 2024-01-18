@@ -12,10 +12,6 @@ button{
     animation: scaleInB 5s infinite cubic-bezier(.36, .11, .89, .32);
     z-index: 1;
     border: none;
-    
-    
-    
-
 }
 button:active{
     width: 300px;
@@ -29,7 +25,6 @@ button:active{
     animation: scaleInB 5s infinite cubic-bezier(.36, .11, .89, .32);
 }
 .glow {
-    
     font-size: 45px;
     color: red;
     text-align: center;
@@ -37,7 +32,6 @@ button:active{
     -moz-animation: glow 1s ease-in-out infinite alternate;
     animation: glow 1s ease-in-out infinite alternate;
   }
-  
   @-webkit-keyframes glow {
     from {
       text-shadow: 0 0 10px red, 0 0 20px red, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
@@ -46,7 +40,6 @@ button:active{
       text-shadow: 0 0 20px red, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
     }
   }
-  
   .circle{
    border-radius: 50%;
     width:300px;
@@ -58,9 +51,7 @@ button:active{
     margin-left: auto;
     margin-right: auto;
     left: 0;
-    right: 0;
-    
-    
+    right: 0;    
     opacity: 10;
 }
 .progressBar{
@@ -74,9 +65,7 @@ button:active{
   left: 470px;
 }
 .progress{
-  
 }
-    
 @keyframes scaleIn {
     from {
       transform: scale(.5, .5);
