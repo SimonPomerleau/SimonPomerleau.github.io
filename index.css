@@ -1,0 +1,30 @@
+.theme-light {
+    --color-primary: #0060df;
+    --color-secondary: #fbfbfe;
+    --color-accent: #fd6f53;
+    --font-color: #000000;
+ }
+ .theme-dark {
+    --color-primary: #00854b;
+    --color-secondary: #243133;
+    --color-accent: #12cdea;
+    --font-color: #ffffff;
+ }
+nav{
+    display: flex;
+    justify-content: center;
+    column-gap: 100px;
+}
+nav button {
+    background: none;
+	color: var(--color-primary);
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+body#templateDarkGrey{
+    background-color: rgb(58, 59, 59);
+
+}
