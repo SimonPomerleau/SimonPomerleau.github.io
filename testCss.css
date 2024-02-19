@@ -1,3 +1,32 @@
+.boody {
+  background: url(lol.gif);
+  background-size: 10%;
+  z-index: 2;
+
+}
+.header {
+  
+  font-size: 45px;
+  color:red
+}
+.rectangle{
+padding-top: 1%;
+text-align: center;
+margin:0 auto ;
+margin-bottom: 5%;
+width:600px;
+height:1280px;
+background-color:blue;  
+
+}
+.text {
+  margin: 5%;
+  color: red;
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: 24px;
+  z-index: 2;
+}
 button{
     width: 300px;
     height: 300px;
